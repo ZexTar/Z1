@@ -8,4 +8,11 @@ const string = 'Danas, 17-tog Septembra, bice hladnije nego juce u 20h, 16tog Se
 const arrayOfStrings = ['abc', 'ac', 'bdca', 'edagas'];
 const type = 1;
 
-module.exports = [min, max, array, string, arrayOfStrings, type];
+module.exports = {
+	min,
+	max,
+	array,
+	string,
+	arrayOfStrings,
+	type,
+};
