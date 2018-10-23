@@ -1,6 +1,10 @@
 const functions = {};
 
 functions.random = (min, max) => {
+	if (min >= max) {
+		return 'wrong arguments, max should be greater then min !';
+	}
+
 	if (typeof min !== 'number' || typeof max !== 'number') {
 		return 'function receives only numbers as agruments';
 	}
